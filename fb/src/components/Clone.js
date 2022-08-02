@@ -9,7 +9,7 @@ import RightSide from './RightSide';
 
 export default function Clone() {
     return(
-        <><><Header></Header><Sidebar1></Sidebar1></></>
+        <><><Header></Header><Sidebar1></Sidebar1><RightSide></RightSide></></>
     )
 
   

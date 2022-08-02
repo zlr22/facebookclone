@@ -3,13 +3,8 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import Avatar from '@mui/material/Avatar';
-import IconButton from '@mui/material/IconButton';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import HomeIcon from '@mui/icons-material/Home';
@@ -20,7 +15,8 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import PeopleIcon from '@mui/icons-material/People';
 import ArticleIcon from '@mui/icons-material/Article';
 import Switch from '@mui/material/Switch';
-import AddCircleIcon from '@mui/icons-material/AddCircle';
+import Fab from '@mui/material/Fab';
+import AddIcon from '@mui/icons-material/Add';
 
 
 
@@ -121,7 +117,9 @@ export default function Sidebar1() {
               </Typography>
               </ListItem>
               <ListItem>
-              <AddCircleIcon sx={{ color:'#32469e',fontSize: 50 }}></AddCircleIcon>
+              <Fab sx={{ bgcolor:'#32469e', color:'#FFFFFF',fontSize: 50 }}>
+                <AddIcon></AddIcon>
+              </Fab>
               </ListItem>
              
             </List>
