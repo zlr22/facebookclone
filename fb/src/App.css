@@ -5,19 +5,19 @@
 
 
 .img1{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 .img2{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 .img3{
   
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 .chat{
@@ -26,7 +26,8 @@
 }
 
 .images{
-  margin-left: 30px;
+  margin-right: 13px;
+  padding-bottom: 10px;
 }
 
 .friend{
@@ -37,5 +38,14 @@
 .text1{
   text-align: left;
   width: 250px;
-  margin-right: 60px;
+  margin-left: 25px;
 }
+
+.o4{
+  margin-right: 95px; 
+}
+
+.o5{
+  margin-right: 100px; 
+}
+
